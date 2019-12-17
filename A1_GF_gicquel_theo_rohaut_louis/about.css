@@ -1,0 +1,50 @@
+
+.profile{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #303030;
+    text-align: center;
+
+}
+
+
+
+
+
+.profile img{
+max-width: 50%;
+max-width:50%;
+border-radius: 100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 2%;
+}
+
+.result img{
+ max-height: 20%;
+ max-width: 30%;
+ border: 2px solid;
+
+}
+
+
+.result p{
+    display: inline;
+    margin: 10px 10px 10px;
+    padding: 5px 5px 50px;
+    vertical-align: 100%;
+}
+.result img{
+    border: 2px solid #1d1414;
+    display: inline-block;
+    width: 10%;
+}
+.tag{
+    color: #721919;
+    vertical-align: 100%;
+}
+.nom_serie{
+    font-size: 25px;
+}
+
