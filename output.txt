@@ -1,0 +1,42 @@
+.
+├── A1_GF_gicquel_theo_rohaut_louis
+│   ├── about.html
+│   ├── doot_placeholder.mp4
+│   ├── dragon_maid.html
+│   ├── episode1.html
+│   ├── episode.html
+│   ├── imgs
+│   │   ├── comment.svg
+│   │   ├── favori.svg
+│   │   ├── next.svg
+│   │   ├── pogostream.svg
+│   │   ├── posters
+│   │   │   ├── berserk.jpg
+│   │   │   ├── Darling-in-the-FranXX.jpg
+│   │   │   ├── Fire-force.jpg
+│   │   │   ├── Kaguya-sama-Love-is-War.jpg
+│   │   │   ├── kimetsu_no_yaiba.jpg
+│   │   │   ├── maid_dragon.jpg
+│   │   │   ├── placeholder_poster.jpg
+│   │   │   ├── Psycho-Pass-3-Sub.jpg
+│   │   │   ├── Re-Zero.jpg
+│   │   │   └── Vinland-Saga.jpg
+│   │   ├── prev.svg
+│   │   └── profile
+│   │       ├── gicqueltheo.svg
+│   │       ├── GitHub-Mark-Light-120px-plus.png
+│   │       ├── louis.jpg
+│   │       ├── placeholder.png
+│   │       ├── reddit_share_circle_128.png
+│   │       └── theo.jpg
+│   ├── index.html
+│   ├── liste.txt
+│   ├── result.html
+│   ├── serie.html
+│   └── styles
+│       ├── normalize.css
+│       └── style.css
+├── output.txt
+└── TP17_ Projet HTML_CSS - M1105 - DelahayeYourself.pdf
+
+5 directories, 34 files
