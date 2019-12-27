@@ -150,7 +150,7 @@ footer p{
     color: #721919;
     vertical-align: 100%;
 }
-.nom_serie{
+.nom-serie{
     font-size: large;
     width: 20%;
 }
@@ -359,21 +359,21 @@ padding: 2%;
 
 
 
-.episode_list a{
+.episode-list a{
     padding:1%;
     background-color: #242424;
     border-radius: 10%;
     
 }
 
-.episode_list a:hover{
+.episode-list a:hover{
     background-color: #ef8022;
     color: #242424;
     text-decoration: none;
 }
 
 
-.comment_new{
+.comment-new{
     padding-bottom: 1%;
     padding-left: 2%;
 }
@@ -381,7 +381,7 @@ padding: 2%;
 
 
 
-.comment_new textarea{
+.comment-new textarea{
     background-color: #1f1f1f;
     color:#c4c4c4;
     height: 40px;
@@ -394,23 +394,23 @@ padding: 2%;
 }
 
 
-.comment_new button{
+.comment-new button{
     background-color: #121212;
     border: none;
 }
 
-.comment_new button:hover{
+.comment-new button:hover{
     background-color: #242424;
 }
 
-.comment_new button img{
+.comment-new button img{
     max-height: 48px;
 
 }
 
 
 
-.comment_list{
+.comment-list{
     padding-top: 4%;
     display: block;
 }
@@ -530,16 +530,16 @@ padding: 2%;
 
 
 
-    .comment_new textarea{
+    .comment-new textarea{
         width: 100%;
         padding-left: 2%;
     } 
 
-    .comment_new button{
+    .comment-new button{
         width: 100%;
     }
 
-    .comment_new img{
+    .comment-new img{
         display: none;
     }
 }
