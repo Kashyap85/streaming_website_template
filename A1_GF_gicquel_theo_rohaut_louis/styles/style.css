@@ -357,6 +357,7 @@ padding: 2%;
 
 
 .buttons-fav-com{
+    padding-top: 2%;
     display: block;
 }
 
@@ -556,6 +557,14 @@ padding: 2%;
 
     .comment-new img{
         display: none;
+    }
+
+    .epselect img{
+        width: 10%;
+    }
+
+    video{
+        width: 100%;
     }
 }
 
