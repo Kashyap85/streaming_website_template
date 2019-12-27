@@ -356,7 +356,9 @@ padding: 2%;
 }
 
 
-
+.buttons-fav-com{
+    display: block;
+}
 
 
 .episode-list a{
@@ -486,7 +488,7 @@ padding: 2%;
     }
 
     nav img{
-        display: none;
+        width: 10%;
     }    
 
     nav span{
