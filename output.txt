@@ -9,7 +9,7 @@
 │   │   ├── comment.svg
 │   │   ├── favori.svg
 │   │   ├── next.svg
-│   │   ├── pogostream.svg
+│   │   ├── pogostream-chibi.png
 │   │   ├── posters
 │   │   │   ├── berserk.jpg
 │   │   │   ├── Darling-in-the-FranXX.jpg

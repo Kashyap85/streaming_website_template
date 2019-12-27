@@ -15,7 +15,7 @@
 │   │   ├── comment.svg
 │   │   ├── favori.svg
 │   │   ├── next.svg
-│   │   ├── pogostream.svg
+│   │   ├── pogostream-chibi.png
 │   │   ├── prev.svg
 │   │   ├── posters
 │   │   │   └── (images séries)
