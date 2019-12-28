@@ -15,18 +15,18 @@
 ## W3C
 
 
- - [ ] style.css
- - [ ] about.html
- - [ ] index.html
- - [ ] serie.html
- - [ ] episode.html
+ - [x] style.css
+ - [x] about.html
+ - [x] index.html
+ - [x] serie.html
+ - [x] episode.html
  - [ ] result.html
 
 
 
 ## Responsive
 
- - [ ] about.html
+ - [x] about.html
  - [ ] index.html
  - [ ] serie.html
  - [ ] episode.html
