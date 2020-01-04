@@ -35,9 +35,9 @@ nav span *{
 }
 
 
-
 nav a{
     font-size: x-large;
+    margin-left: 2%;
 }
 
 nav:first-child{
@@ -49,11 +49,6 @@ nav:first-child{
 nav img{
     width:3%;
 }
-
-
-
-
-/** GENERAL CSS **/
 
 a:hover{
 text-decoration: underline;
@@ -81,15 +76,11 @@ footer p{
 }
 
 
-
-
 /** SEARCH RESULT **/
 
 .result{
     border: 0.5px solid #191919;
-    white-space: nowrap;
 
-    overflow: hidden;
 }
 
 .result .tags{
@@ -125,25 +116,33 @@ footer p{
 .result-title{
     display: inline-block;
     font-weight: bold;
-    font-size: large;
-    width: 30%;
 }
 
 .result-title span{
     color: #c4c4c4;
 }
 
+.result-title p{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.result-title img{
+    width: auto;
+    margin: 0 auto;
+}
+
 .result-desc{
     display: inline-block;
-    overflow: hidden;
-    width: 80%;
+    width: 70%;
+    color: #777777;
 }
 
 .result img{
     border: 2px solid #1d1414;
     display: inline-block;
-    height: auto;
-    max-height: 100px;
+    max-width: 100px;
 
 }
 .tag{
@@ -194,12 +193,12 @@ padding-left: 5%;
 .gallerie{
     grid-template-columns: repeat(4, 1fr);
     width: 90%;
-    background-color: #191919;
     padding: 2%;
 
     grid-gap: 1%;
     max-width: 100%;
     padding-bottom: 2%;
+    overflow: auto;
 }
 
 .gallerie a{
@@ -207,13 +206,14 @@ padding-left: 5%;
     width: 100%;
     text-align: center;
     background-color: #121212;
-    border: 2px solid #121212;
+    border: 2px solid #242424;
     padding-top: 2%;
 }
 
 .gallerie a:hover{
     background-color: #333333;
     text-decoration: none;
+    color: #cf6b14;
 }
 
 
@@ -232,6 +232,7 @@ padding-left: 5%;
 .gallerie img{
     width: auto;
     height: 325px;
+    
 }
 
 .presentation input{
@@ -239,6 +240,11 @@ padding-left: 5%;
     border: 5px solid #242424;
     color: #c4c4c4;
 
+}
+
+
+.presentation form{
+    display: block;
 }
 
 .presentation button{
@@ -292,9 +298,6 @@ padding-left: 5%;
 }
 
 
-
-
-
 .profile > img{
 max-width: 50%;
 border-radius: 100%;
@@ -304,6 +307,19 @@ display: block;
 padding: 2%;
 }
 
+
+.roles{
+    display: block;
+    color: #48a114;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.roles span{
+    background-color: #333333;
+    padding: 1%;
+    border-radius: 30px;
+}
 
 
 .social a img{
@@ -351,7 +367,6 @@ padding: 2%;
 }
 
 .tags-list{
-    width: 30%;
     display: inline-block;
 }
 
@@ -463,7 +478,6 @@ padding: 2%;
 .three{
     grid-column: 3;
     grid-row: auto;
-    margin: auto;
 }
 
 .autogrid{
@@ -500,6 +514,10 @@ padding: 2%;
         width: 90%;
     }
 
+    .presentation{
+        width: 100%;
+    }
+
     .presentation form input{
         width: 50%;
     }
@@ -524,7 +542,7 @@ padding: 2%;
     }
 
     .gallerie h4{
-        padding-bottom: 15%;
+        padding-bottom: 1%;
         margin-top: 1%;
     }
 
