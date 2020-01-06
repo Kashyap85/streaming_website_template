@@ -605,5 +605,18 @@ padding: 2%;
     video{
         width: 100%;
     }
+
+    .result-title{
+        width: 100%;
+    }
+
+    .result img{
+        margin: 0 auto;
+        max-width: 90px;
+    }
+
+    .result-desc{
+        width: 100%;
+    }
 }
 
