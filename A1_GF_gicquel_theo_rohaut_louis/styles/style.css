@@ -60,6 +60,15 @@ main{
     padding-bottom: 3%;
 }
 
+main > a{
+    margin-top: 2%;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+}
+
+
 footer{
     display: inline-block;
     background-color: #0f0f0f;
