@@ -577,16 +577,16 @@ padding: 2%;
 
 
     .comment-new textarea{
-        width: 100%;
+        width:  80%;
         padding-left: 2%;
     } 
 
     .comment-new button{
-        width: 100%;
+        width: 10%;
     }
 
     .comment-new img{
-        display: none;
+        height: 45px;
     }
 
     .epselect img{
