@@ -192,20 +192,19 @@ video{
 
 .epselect{
     text-align: center;
+    margin-top: 10%;
 }
 
-.epselect p{
-    display: inline-block;
-    font-size: large;
-    
-}
 
 .epselect img{
-    width: 2%;
+    width: 70px;
 }
 
+
+
+
 .epselect a + a{
-padding-left: 5%;
+    padding-left: 5%;
 }
 
 
@@ -465,11 +464,14 @@ padding: 2%;
 
 .comment p{
     padding-left: 4%;
+    margin-top: 2%;
 }
 
 .comment h4{
     color: #c4c4c4;
     padding-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /** CSS GRID **/
@@ -579,7 +581,7 @@ padding: 2%;
     .desc a img{
         padding: 0;
         display: inline-block;
-        width: 20%;
+        height: 50px;
     
     }
 
@@ -599,7 +601,7 @@ padding: 2%;
     }
 
     .epselect img{
-        width: 10%;
+        width: 50px;
     }
 
     video{
