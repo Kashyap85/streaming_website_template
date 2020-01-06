@@ -20,7 +20,6 @@ a, h1{
     color: #ef8022;  
 }
 
-
 header{
     background-color: #191919;
 }
@@ -33,7 +32,6 @@ nav span *{
     margin: 0 auto;
 
 }
-
 
 nav a{
     font-size: x-large;
@@ -68,7 +66,6 @@ main > a{
     display: block;
 }
 
-
 footer{
     display: inline-block;
     background-color: #0f0f0f;
@@ -77,13 +74,11 @@ footer{
     margin: 0 auto;
     padding: 2% 0 2% 0;
     margin-bottom: 0%;
-
 }
 
 footer p{
     display: inline;
 }
-
 
 /** SEARCH RESULT **/
 
@@ -91,9 +86,6 @@ footer p{
     border: 0.5px solid #191919;
 
 }
-
-
-
 
 .result .tags{
     display: inline-block;
@@ -180,9 +172,8 @@ footer p{
 
 }
 
-
 .serie-title img{
-max-width: 100%;
+    max-width: 100%;
 }
 
 video{
@@ -195,26 +186,21 @@ video{
     margin-top: 10%;
 }
 
-
 .epselect img{
     width: 70px;
 }
-
-
-
 
 .epselect a + a{
     padding-left: 5%;
 }
 
 
-/** NOUVEAUTES **/
+/** GRID INDEX.HTML **/
 
 .gallerie{
     grid-template-columns: repeat(4, 1fr);
     width: 90%;
     padding: 2%;
-
     grid-gap: 1%;
     max-width: 100%;
     padding-bottom: 2%;
@@ -259,9 +245,7 @@ video{
     background-color: #242424;
     border: 5px solid #242424;
     color: #c4c4c4;
-
 }
-
 
 .intro form{
     display: block;
@@ -279,8 +263,6 @@ video{
 }
 
 
-
-
 .new{
     background-color: #0f0f0f;
 }
@@ -294,7 +276,7 @@ video{
 }
 
 
-/** ABOUT **/
+/** ABOUT.HTML **/
 
 .intro{
     text-align: center;
@@ -307,8 +289,6 @@ video{
     width: 13%;
 }
 
-
-
 .profile{
     width: 75%;
     margin: 0 auto;
@@ -316,7 +296,6 @@ video{
     text-align: center;
     padding: 1%;
 }
-
 
 .profile > img{
 max-width: 50%;
@@ -326,7 +305,6 @@ margin-right: auto;
 display: block;
 padding: 2%;
 }
-
 
 .roles{
     display: block;
@@ -341,7 +319,6 @@ padding: 2%;
     border-radius: 30px;
 }
 
-
 .social a img{
     max-width: 100%;
     max-height: 100%;
@@ -352,11 +329,6 @@ padding: 2%;
     width:15%;
     padding: 2%;
 }
-
-
-
-
-
 
 /** ARTICLE **/
 
@@ -371,7 +343,6 @@ padding: 2%;
     display: inline-block;
     height: 40px;
     padding-top: 2%;
-
 }
 
 .tags{
@@ -446,13 +417,10 @@ padding: 2%;
 
 }
 
-
-
 .comment-list{
     padding-top: 4%;
     display: block;
 }
-
 
 .comment{
     display: block;
@@ -491,8 +459,6 @@ padding: 2%;
     grid-row: auto;
 }
 
-
-
 .two{
     grid-column: 2;
     grid-row: auto;
@@ -504,15 +470,12 @@ padding: 2%;
 }
 
 .autogrid{
-
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
 }
 
 /** RESPONSIVE **/
 @media (max-width:740px){
-
-
 
     .one, .two, .three, .center{
         grid-column: auto;
@@ -585,8 +548,6 @@ padding: 2%;
     
     }
 
-
-
     .comment-new textarea{
         width:  80%;
         padding-left: 2%;
@@ -621,4 +582,3 @@ padding: 2%;
         width: 100%;
     }
 }
-
